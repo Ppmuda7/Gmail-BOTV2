@@ -186,7 +186,7 @@ def Enter_DOB(driver: webdriver.Chrome, day_bday, year_bday, month_bday, wait):
 
 
 def Generate_Details():
-    pwo = PasswordGenerator()
+    pwo = PasswordGenerator(super@1122)
     pwo.minlen = 9
     pwo.maxlen = 26
 
